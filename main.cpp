@@ -42,8 +42,9 @@
 #undef max
 
 #define _CRT_SECURE_NO_WARNINGS
-#undef ERROR_CANCELLED
 #endif
+
+#undef ERROR_CANCELLED
 
 #define ERROR_ARGS -1
 #define ERROR_FORMAT -2

@@ -1,7 +1,7 @@
 add_library(picoboot_connection INTERFACE)
 
 target_sources(picoboot_connection INTERFACE
-        ${CMAKE_CURRENT_LIST_DIR}/picoboot_connection.c)
+        ${CMAKE_CURRENT_LIST_DIR}/picoboot_connection.cpp)
 
 target_include_directories(picoboot_connection INTERFACE ${CMAKE_CURRENT_LIST_DIR})
 
